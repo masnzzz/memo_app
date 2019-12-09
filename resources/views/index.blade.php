@@ -15,7 +15,8 @@
           <div class="card">
 
             <div class="card-body">
-              <p class="text-black-50"> {{ $memo->content }} </p>
+              <h3 class="text-black-50"> {{ $memo->content }} </h3>
+              <p class="text-black-50"> {{ $memo->updated_at }} </p>
             </div>
 
             <div class="card-footer text-right">
